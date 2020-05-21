@@ -1,0 +1,154 @@
+@media screen and (max-width: 400px) {
+
+.home-banner-title {
+  font-size: 55px;
+}
+.home-title-tagline {
+  margin-left: 5px;
+  max-width: 250px;
+  font-size: 16px;
+  /*display: none;*/
+}
+.figure-wrapper {
+  margin-top: -80px;
+}
+.home-banner-text-wrapper {
+  margin-top: 0;
+}
+.figure-1,
+.figure-2,
+.figure-3,
+.figure-4 {
+  width: 150px;
+}
+.figure-1 {
+  left: -5px;
+}
+.figure-1-wrapper {
+  top: -50px;
+  left: 178px;
+}
+.figure-2-wrapper {
+  top: -50px;
+  left: -100px;
+}
+
+.figure-3-wrapper {
+  top: -350px;
+  left: 170px;
+}
+
+.figure-4-wrapper {
+  top: -300px;
+  left: 120px;
+}
+
+.searchbar {
+  position: relative;
+  /*top: -100px;*/
+  right: -250px;
+}
+.input-group-action {
+  left: 0px;
+  top: 15px;
+}
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+
+.home-banner-title {
+  font-size: 65px;
+}
+.home-title-tagline {
+  font-size: 16px;
+  margin-left: 5px;
+  max-width: 250px;
+  /*display: none;*/
+}
+.figure-wrapper {
+  margin-top: -50px;
+}
+.home-banner-text-wrapper {
+  margin-top: 0;
+}
+.figure-1,
+.figure-2,
+.figure-3,
+.figure-4 {
+  width: 150px;
+}
+.figure-1 {
+  left: -5px;
+}
+.figure-1-wrapper {
+  top: -50px;
+  left: 178px;
+}
+.figure-2-wrapper {
+  top: -50px;
+  left: -100px;
+}
+
+.figure-3-wrapper {
+  top: -380px;
+  left: 180px;
+}
+
+.figure-4-wrapper {
+  top: -300px;
+  left: 150px;
+}
+.searchbar {
+  position: relative;
+  /*top: -100px;*/
+  right: -250px;
+}
+.input-group-action {
+  left: 0px;
+  top: 0;
+}
+.figure-wrapper-action {
+  margin-top: 20px !important;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 640px) {
+.figure-1,
+.figure-2,
+.figure-3 {
+  width: 150px;
+}
+
+.figure-3-wrapper {
+  left: 200px;
+  top: -400px;
+}
+.figure-4-wrapper {
+  left: 200px;
+  top: -300px;
+}
+.input-group-action {
+  left: 0px;
+  top: 15px;
+}
+}
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+.figure-3-wrapper {
+  top: -100px;
+  left: -150px;
+}
+.figure-4-wrapper {
+  top: -250px;
+  left: -250px;
+}
+.figure-wrapper-action {
+  margin-top: 20px !important;
+}
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

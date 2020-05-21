@@ -1,0 +1,91 @@
+.cart-image {
+	width: 100px;
+	height: 100px;
+}
+	.strikethrough {
+		text-decoration: line-through;
+	}
+	.categories {
+		background-color: grey;
+		border-radius: 15px;
+		color: white;
+		padding: 2px 5px;
+		font-size: 12px;
+	}
+	.product img {
+		border-radius: 70px;
+	}
+	.variations th, .variations td {
+		font-size: 12px;
+	}
+	button:not(.toggle), .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type="button"], input[type="reset"], input[type="submit"], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
+		padding: 2px !important;
+	}
+	.click-more {
+		text-transform: capitalize;
+		background: none !important;
+		padding: 0;
+		text-align: left;
+		color: black !important;
+		font-size: 12px;
+	}
+	.in-stock {
+		background-color: green;
+		border-radius: 15px;
+		color: white;
+		padding: 2px 5px;
+		font-size: 12px;
+	}
+	.no-stock {
+		background-color: red;
+		border-radius: 15px;
+		color: white;
+		padding: 2px 5px;
+		font-size: 12px;
+	}
+	.addtocart {
+		font-size: 12px;
+	}
+	.view-cart {
+		background: none !important;
+		color: black !important;
+	}
+	[data-cart-total] {
+		background-color: yellow;
+		color: black !important;
+		padding:5px;
+		border-radius: 10px;
+		width: 20px;
+	}
+
+	[data-pending-order] {
+		background-color: blue;
+		color: white !important;
+		padding:5px;
+		border-radius: 10px;
+		width: 20px;
+	}
+	[data-approved-order] {
+		color: green !important;
+		padding:5px;
+		border-radius: 10px;
+		width: 20px;
+	}
+
+	[data-approved-order-value] {
+		background-color: red;
+		color: white !important;
+		padding:5px;
+		border-radius: 10px;
+		width: 20px;
+	}
+
+	.pending {
+		background-color: blue;
+		color: white;
+	}
+
+	.approved {
+		background-color: green;
+		color: white;
+	}
